@@ -2,6 +2,7 @@ import { ArrowLeft, ArrowUpRight, Check, Clock3, Flame, GitCompareArrows, UsersR
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { DetailSkeleton } from '../components/RecipeSkeleton'
+import { ImageCredit } from '../components/ImageCredit'
 import { RecipeImage } from '../components/RecipeImage'
 import { useAppContext } from '../context/useAppContext'
 import { recipes } from '../data/recipes'
@@ -49,6 +50,7 @@ export function DetailPage() {
         <div className="detail-image-wrap">
           <RecipeImage alt={recipe.alt[language]} className="detail-image" src={recipe.image} />
           <span className="detail-category">{copy.categoryLabels[recipe.category]}</span>
+          {recipe.imageCredit && <ImageCredit credit={recipe.imageCredit} detail language={language} />}
         </div>
         <div className="detail-intro">
           <span className="eyebrow detail-eyebrow">{copy.detailEyebrow}</span>

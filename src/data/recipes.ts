@@ -5,6 +5,13 @@ export type Category = 'all' | 'breakfast' | 'lunch' | 'dinner' | 'dessert' | 'v
 export type LocalizedText = Record<Language, string>
 export type LocalizedList = Record<Language, string[]>
 
+export interface RecipeImageCredit {
+  author: string
+  source: string
+  license: string
+  licenseUrl: string
+}
+
 export interface Recipe {
   id: string
   name: LocalizedText
@@ -13,6 +20,7 @@ export interface Recipe {
   minutes: number
   calories: number
   image: string
+  imageCredit?: RecipeImageCredit
   alt: LocalizedText
   ingredients: LocalizedList
   steps: LocalizedList

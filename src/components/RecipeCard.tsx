@@ -2,6 +2,7 @@ import { ArrowUpRight, Clock3, GitCompareArrows, Leaf } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import type { Recipe } from '../data/recipes'
 import { useAppContext } from '../context/useAppContext'
+import { ImageCredit } from './ImageCredit'
 import { RecipeImage } from './RecipeImage'
 import { text } from '../i18n'
 
@@ -28,14 +29,15 @@ export function RecipeCard({ recipe, index, onCompareToggle }: RecipeCardProps) 
           style={{ objectPosition: imagePosition }}
         />
         <span className="card-category">{copy.categoryLabels[recipe.category]}</span>
+        <div className="card-image-title">
+          <h3>{recipe.name[language]}</h3>
+          {recipe.category === 'vegetarian' && <span className="vegetarian-badge" title={copy.categoryLabels.vegetarian}><Leaf size={14} aria-hidden="true" /></span>}
+        </div>
         <span className="card-image-arrow" aria-hidden="true"><ArrowUpRight size={17} /></span>
       </Link>
       <div className="recipe-card-body">
-        <div className="recipe-card-heading">
-          <h3><Link to={`/item/${recipe.id}`}>{recipe.name[language]}</Link></h3>
-          {recipe.category === 'vegetarian' && <span className="vegetarian-badge" title={copy.categoryLabels.vegetarian}><Leaf size={14} aria-hidden="true" /></span>}
-        </div>
         <p className="recipe-description">{recipe.description[language]}</p>
+        {recipe.imageCredit && <ImageCredit credit={recipe.imageCredit} language={language} />}
         <div className="card-bottom">
           <span className="card-time"><Clock3 size={15} aria-hidden="true" />{recipe.minutes} {copy.minutes}</span>
           <button

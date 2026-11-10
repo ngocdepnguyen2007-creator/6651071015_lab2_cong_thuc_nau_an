@@ -16,6 +16,12 @@ theo danh mục và thời gian nấu, xem cách làm chi tiết, đổi ngôn n
 và so sánh tối đa ba công thức. Ngôn ngữ và danh sách so sánh được lưu trong
 `localStorage`.
 
+## Ảnh món ăn
+
+Mỗi công thức dùng ảnh riêng và có mô tả thay thế phù hợp. Nguồn ảnh Wikimedia
+Commons, tác giả và giấy phép được ghi ngay cạnh ảnh trên thẻ món và trang chi
+tiết; ảnh CC0 không yêu cầu ghi công. Ảnh được cắt khung để phù hợp với giao diện.
+
 ## Công nghệ
 
 - React 18, TypeScript strict, Vite 6.

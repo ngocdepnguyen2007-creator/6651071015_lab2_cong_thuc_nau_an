@@ -6,16 +6,20 @@ interface RecipeImageProps extends Omit<ImgHTMLAttributes<HTMLImageElement>, 'sr
 }
 
 export function RecipeImage({ src, onError, ...props }: RecipeImageProps) {
-  const [imageSource, setImageSource] = useState(src)
+  const [imageState, setImageState] = useState({ source: src, currentSource: src })
+
+  if (imageState.source !== src) {
+    setImageState({ source: src, currentSource: src })
+  }
 
   return (
     <img
       {...props}
       onError={(event) => {
         onError?.(event)
-        setImageSource(fallbackImage)
+        setImageState({ source: src, currentSource: fallbackImage })
       }}
-      src={imageSource}
+      src={imageState.currentSource}
     />
   )
 }

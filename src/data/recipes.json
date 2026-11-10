@@ -12,7 +12,7 @@
     "category": "breakfast",
     "minutes": 15,
     "calories": 320,
-    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=960&q=80",
+    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=960&q=80",
     "alt": {
       "vi": "Bữa sáng bơ và rau củ tươi",
       "en": "Avocado breakfast with fresh vegetables"
@@ -98,7 +98,7 @@
     "category": "dinner",
     "minutes": 30,
     "calories": 465,
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=960&q=80",
+    "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=960&q=80",
     "alt": {
       "vi": "Mì Ý rưới sốt cà chua",
       "en": "Pasta served with tomato sauce"
@@ -141,7 +141,7 @@
     "category": "lunch",
     "minutes": 20,
     "calories": 180,
-    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=960&q=80",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Miso_Soup_001.jpg/500px-Miso_Soup_001.jpg",
     "alt": {
       "vi": "Tô súp nóng với rau thơm",
       "en": "Warm soup topped with fresh herbs"
@@ -184,7 +184,7 @@
     "category": "breakfast",
     "minutes": 25,
     "calories": 350,
-    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=960&q=80",
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=960&q=80",
     "alt": {
       "vi": "Pancake phủ trái cây tươi",
       "en": "Pancakes topped with fresh fruit"
@@ -227,10 +227,16 @@
     "category": "breakfast",
     "minutes": 10,
     "calories": 260,
-    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=960&q=80",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Kid_friendly_green_smoothie_in_a_personalized_glass_with_spinach%2C_Greek_yogurt%2C_frozen_blueberries%2C_blackberries_and_strawberries_and_berries%2C_banana_in_a_glass_bowl_on_a_wood_table_%2816225943125%29.jpg/500px-thumbnail.jpg",
     "alt": {
-      "vi": "Tô ăn sáng nhiều màu sắc với trái cây",
-      "en": "Colorful breakfast bowl with fresh fruit"
+      "vi": "Sữa chua với việt quất, dâu và trái cây",
+      "en": "Greek yogurt with blueberries, strawberries, and fruit"
+    },
+    "imageCredit": {
+      "author": "Personal Creations",
+      "source": "https://commons.wikimedia.org/wiki/File:Kid_friendly_green_smoothie_in_a_personalized_glass_with_spinach,_Greek_yogurt,_frozen_blueberries,_blackberries_and_strawberries_and_berries,_banana_in_a_glass_bowl_on_a_wood_table_(16225943125).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     "ingredients": {
       "vi": [
@@ -270,7 +276,7 @@
     "category": "vegetarian",
     "minutes": 35,
     "calories": 430,
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=960&q=80",
+    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=960&q=80",
     "alt": {
       "vi": "Tô rau củ nhiều màu dùng cùng ngũ cốc",
       "en": "Colorful vegetables served in a grain bowl"
@@ -313,10 +319,16 @@
     "category": "lunch",
     "minutes": 15,
     "calories": 335,
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=960&q=80",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Hummus_salad.jpg/500px-Hummus_salad.jpg",
     "alt": {
-      "vi": "Salad xanh đậu gà ăn trưa",
-      "en": "Green chickpea salad for lunch"
+      "vi": "Salad đậu gà với rau xanh và sốt hummus",
+      "en": "Chickpea salad with fresh greens and hummus"
+    },
+    "imageCredit": {
+      "author": "Canbel",
+      "source": "https://commons.wikimedia.org/wiki/File:Hummus_salad.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     "ingredients": {
       "vi": [
@@ -356,10 +368,16 @@
     "category": "dinner",
     "minutes": 40,
     "calories": 510,
-    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=960&q=80",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Mushroom_Risotto_%284789415965%29.jpg/500px-Mushroom_Risotto_%284789415965%29.jpg",
     "alt": {
       "vi": "Món cơm sốt kem nấm nóng",
       "en": "Warm creamy mushroom rice dish"
+    },
+    "imageCredit": {
+      "author": "Katrin Gilger",
+      "source": "https://commons.wikimedia.org/wiki/File:Mushroom_Risotto_(4789415965).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     "ingredients": {
       "vi": [
@@ -399,10 +417,16 @@
     "category": "lunch",
     "minutes": 12,
     "calories": 390,
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=960&q=80",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Caprese_Sandwich%2C_Jolly_Holiday_Bakery_Cafe_2013.jpg/500px-Caprese_Sandwich%2C_Jolly_Holiday_Bakery_Cafe_2013.jpg",
     "alt": {
       "vi": "Bánh sandwich kẹp rau xanh",
-      "en": "Sandwich layered with fresh greens"
+      "en": "Toasted focaccia with tomato, mozzarella, and basil"
+    },
+    "imageCredit": {
+      "author": "HarshLight",
+      "source": "https://commons.wikimedia.org/wiki/File:Caprese_Sandwich,_Jolly_Holiday_Bakery_Cafe_2013.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     "ingredients": {
       "vi": [
@@ -442,7 +466,7 @@
     "category": "vegetarian",
     "minutes": 35,
     "calories": 245,
-    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=960&q=80",
+    "image": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?auto=format&fit=crop&w=960&q=80",
     "alt": {
       "vi": "Tô súp bí đỏ mịn nóng hổi",
       "en": "Bowl of smooth, steaming pumpkin soup"
@@ -485,10 +509,16 @@
     "category": "breakfast",
     "minutes": 10,
     "calories": 310,
-    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=960&q=80",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Muesli.jpg/500px-Muesli.jpg",
     "alt": {
-      "vi": "Yến mạch ăn sáng cùng trái cây",
-      "en": "Breakfast oats topped with fruit"
+      "vi": "Tô yến mạch ngâm cùng chuối và trái cây",
+      "en": "A bowl of oats with banana and fruit"
+    },
+    "imageCredit": {
+      "author": "VirtualSteve",
+      "source": "https://commons.wikimedia.org/wiki/File:Muesli.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/"
     },
     "ingredients": {
       "vi": [
@@ -571,10 +601,16 @@
     "category": "dessert",
     "minutes": 8,
     "calories": 360,
-    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=960&q=80",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Chocolate_Mug_Cake_%28KETO%2C_LCHF%2C_Low_Carb%2C_Gluten_free%2C_FIT%29.jpg/500px-Chocolate_Mug_Cake_%28KETO%2C_LCHF%2C_Low_Carb%2C_Gluten_free%2C_FIT%29.jpg",
     "alt": {
-      "vi": "Miếng bánh chocolate phủ kem",
-      "en": "Chocolate cake topped with cream"
+      "vi": "Bánh chocolate nướng trong cốc",
+      "en": "Chocolate mug cake"
+    },
+    "imageCredit": {
+      "author": "Ewelina Podrez-Siama",
+      "source": "https://commons.wikimedia.org/wiki/File:Chocolate_Mug_Cake_(KETO,_LCHF,_Low_Carb,_Gluten_free,_FIT).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     "ingredients": {
       "vi": [
@@ -614,7 +650,7 @@
     "category": "dinner",
     "minutes": 35,
     "calories": 520,
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=960&q=80",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=960&q=80",
     "alt": {
       "vi": "Pizza phô mai và cà chua",
       "en": "Tomato and cheese pizza"
@@ -657,10 +693,16 @@
     "category": "breakfast",
     "minutes": 10,
     "calories": 295,
-    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=960&q=80",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Mango_Pineapple_Smoothie_Bowl.jpg/500px-Mango_Pineapple_Smoothie_Bowl.jpg",
     "alt": {
       "vi": "Tô smoothie trái cây nhiệt đới",
       "en": "Tropical fruit smoothie bowl"
+    },
+    "imageCredit": {
+      "author": "Eloquent Insan",
+      "source": "https://commons.wikimedia.org/wiki/File:Mango_Pineapple_Smoothie_Bowl.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     "ingredients": {
       "vi": [
@@ -700,10 +742,16 @@
     "category": "vegetarian",
     "minutes": 40,
     "calories": 470,
-    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=960&q=80",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Red_lentil_curry_soup.jpg/500px-Red_lentil_curry_soup.jpg",
     "alt": {
-      "vi": "Tô cà ri rau củ nóng",
-      "en": "Warm bowl of vegetable curry"
+      "vi": "Tô súp cà ri đậu lăng đỏ",
+      "en": "A bowl of red lentil curry soup"
+    },
+    "imageCredit": {
+      "author": "Chef at Cookipedia.co.uk",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_lentil_curry_soup.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
     },
     "ingredients": {
       "vi": [
@@ -743,10 +791,16 @@
     "category": "dessert",
     "minutes": 45,
     "calories": 330,
-    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=960&q=80",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Vegan_apple_crumble_%288293111737%29.jpg/500px-Vegan_apple_crumble_%288293111737%29.jpg",
     "alt": {
       "vi": "Bánh nướng trái cây phủ vụn giòn",
-      "en": "Baked fruit dessert with a crisp crumb topping"
+      "en": "Vegan apple crumble with a crisp oat topping"
+    },
+    "imageCredit": {
+      "author": "Suzette",
+      "source": "https://commons.wikimedia.org/wiki/File:Vegan_apple_crumble_(8293111737).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     "ingredients": {
       "vi": [
@@ -786,7 +840,7 @@
     "category": "lunch",
     "minutes": 30,
     "calories": 415,
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=960&q=80",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Salt_%26_Pepper_Tofu_Rice_Bowl_-_Tiger_Bites_Pig_2025-11-20.jpg/500px-Salt_%26_Pepper_Tofu_Rice_Bowl_-_Tiger_Bites_Pig_2025-11-20.jpg",
     "alt": {
       "vi": "Tô cơm ăn cùng rau xanh nhiều màu",
       "en": "Rice bowl served with colorful green vegetables"
@@ -829,10 +883,16 @@
     "category": "breakfast",
     "minutes": 15,
     "calories": 285,
-    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=960&q=80",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Nargesi_omelette.jpg/500px-Nargesi_omelette.jpg",
     "alt": {
-      "vi": "Bữa sáng trứng và rau xanh",
-      "en": "Breakfast plate with eggs and green vegetables"
+      "vi": "Trứng chiên rau chân vịt kiểu Nargesi",
+      "en": "Nargesi-style spinach omelette"
+    },
+    "imageCredit": {
+      "author": "Reza babaeian",
+      "source": "https://commons.wikimedia.org/wiki/File:Nargesi_omelette.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     "ingredients": {
       "vi": [
@@ -872,10 +932,16 @@
     "category": "dessert",
     "minutes": 15,
     "calories": 190,
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=960&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Raddicio_and_Uniq_Fruit_Salad.jpg",
     "alt": {
-      "vi": "Salad rau quả tươi sáng nhiều màu",
-      "en": "Bright, colorful fresh fruit and greens"
+      "vi": "Salad trái cây họ cam quýt",
+      "en": "Citrus fruit salad with radicchio"
+    },
+    "imageCredit": {
+      "author": "Mostlund",
+      "source": "https://commons.wikimedia.org/wiki/File:Raddicio_and_Uniq_Fruit_Salad.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     "ingredients": {
       "vi": [

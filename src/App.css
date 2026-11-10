@@ -544,8 +544,8 @@
 
 .card-image-link::after {
   position: absolute;
-  inset: 40% 0 0;
-  background: linear-gradient(transparent, rgba(23, 35, 25, .16));
+  inset: 28% 0 0;
+  background: linear-gradient(transparent, rgba(14, 29, 19, .72));
   content: "";
   pointer-events: none;
 }
@@ -604,27 +604,28 @@
   padding: 13px 14px 12px;
 }
 
-.recipe-card-heading {
+.card-image-title {
+  position: absolute;
+  z-index: 1;
+  right: 46px;
+  bottom: 12px;
+  left: 13px;
   display: flex;
-  min-height: 22px;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 7px;
+  align-items: flex-end;
+  gap: 8px;
 }
 
-.recipe-card-heading h3 {
+.card-image-title h3 {
+  display: -webkit-box;
   overflow: hidden;
   margin: 0;
-  color: #25372a;
-  font-family: inherit;
+  color: #fff;
   font-size: 16px;
-  font-weight: 600;
-  line-height: 1.35;
-  text-overflow: ellipsis;
-}
-
-.recipe-card-heading h3 a:hover {
-  color: #18764d;
+  font-weight: 750;
+  line-height: 1.3;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, .3);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .vegetarian-badge {
@@ -642,12 +643,45 @@
   display: -webkit-box;
   overflow: hidden;
   min-height: 34px;
-  margin: 6px 0 12px;
+  margin: 0 0 12px;
   color: #5f6b61;
   font-size: 10px;
   line-height: 1.65;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+}
+
+.image-credit {
+  display: block;
+  margin: -5px 0 8px;
+  color: #6b756d;
+  font-size: 8px;
+  line-height: 1.5;
+}
+
+.image-credit a {
+  color: #356346;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.image-credit-detail {
+  position: absolute;
+  z-index: 2;
+  right: 9px;
+  bottom: 9px;
+  left: 9px;
+  width: fit-content;
+  margin: 0;
+  padding: 4px 7px;
+  border-radius: 4px;
+  background: rgba(25, 38, 29, .78);
+  color: #fff;
+  font-size: 9px;
+}
+
+.image-credit-detail a {
+  color: #fff;
 }
 
 .card-bottom {
@@ -1741,7 +1775,7 @@
     padding: 13px;
   }
 
-  .recipe-card-heading h3 {
+  .card-image-title h3 {
     font-size: 17px;
   }
 
