@@ -1,0 +1,905 @@
+[
+  {
+    "id": "avocado-toast",
+    "name": {
+      "vi": "Bánh mì bơ nghiền",
+      "en": "Smashed avocado toast"
+    },
+    "description": {
+      "vi": "Bữa sáng giòn thơm, béo nhẹ và sẵn sàng chỉ sau vài phút.",
+      "en": "A crisp, creamy breakfast ready in just a few minutes."
+    },
+    "category": "breakfast",
+    "minutes": 15,
+    "calories": 320,
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Bữa sáng bơ và rau củ tươi",
+      "en": "Avocado breakfast with fresh vegetables"
+    },
+    "ingredients": {
+      "vi": [
+        "2 lát bánh mì nguyên cám",
+        "1 quả bơ chín",
+        "1 thìa nước cốt chanh",
+        "Ớt khô và muối"
+      ],
+      "en": [
+        "2 slices whole-grain bread",
+        "1 ripe avocado",
+        "1 tbsp lemon juice",
+        "Chili flakes and salt"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Nướng bánh mì đến khi vàng giòn.",
+        "Nghiền bơ cùng nước cốt chanh và một nhúm muối, phết lên bánh rồi rắc ớt."
+      ],
+      "en": [
+        "Toast the bread until golden and crisp.",
+        "Mash avocado with lemon juice and a pinch of salt, spread on toast, and finish with chili flakes."
+      ]
+    }
+  },
+  {
+    "id": "greek-salad",
+    "name": {
+      "vi": "Salad Hy Lạp",
+      "en": "Greek garden salad"
+    },
+    "description": {
+      "vi": "Rau củ mọng nước, ô liu và phô mai feta trong sốt chanh ô-liu.",
+      "en": "Juicy vegetables, olives, and feta tossed in a lemon-olive dressing."
+    },
+    "category": "vegetarian",
+    "minutes": 20,
+    "calories": 285,
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Đĩa salad xanh với rau củ tươi",
+      "en": "Green salad bowl with fresh vegetables"
+    },
+    "ingredients": {
+      "vi": [
+        "2 quả cà chua",
+        "1 quả dưa leo",
+        "½ củ hành tím",
+        "Phô mai feta và ô liu"
+      ],
+      "en": [
+        "2 tomatoes",
+        "1 cucumber",
+        "½ red onion",
+        "Feta cheese and olives"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Cắt rau củ thành miếng vừa ăn và cho vào tô.",
+        "Trộn dầu ô-liu với chanh, thêm feta, ô liu và sốt vào tô."
+      ],
+      "en": [
+        "Chop the vegetables into bite-size pieces and add to a bowl.",
+        "Whisk olive oil with lemon, add feta and olives, then toss everything together."
+      ]
+    }
+  },
+  {
+    "id": "creamy-tomato-pasta",
+    "name": {
+      "vi": "Mì Ý sốt cà chua kem",
+      "en": "Creamy tomato pasta"
+    },
+    "description": {
+      "vi": "Mì ống mềm quyện sốt cà chua thơm, điểm thêm kem tươi.",
+      "en": "Tender pasta coated in fragrant tomato sauce with a splash of cream."
+    },
+    "category": "dinner",
+    "minutes": 30,
+    "calories": 465,
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Mì Ý rưới sốt cà chua",
+      "en": "Pasta served with tomato sauce"
+    },
+    "ingredients": {
+      "vi": [
+        "200 g mì ống",
+        "2 quả cà chua chín",
+        "2 tép tỏi",
+        "50 ml kem tươi"
+      ],
+      "en": [
+        "200 g pasta",
+        "2 ripe tomatoes",
+        "2 garlic cloves",
+        "50 ml cream"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Luộc mì trong nước muối theo hướng dẫn trên bao bì.",
+        "Phi thơm tỏi, nấu cà chua thành sốt rồi thêm kem và trộn mì."
+      ],
+      "en": [
+        "Boil pasta in salted water according to the package.",
+        "Sauté garlic, simmer tomatoes into a sauce, stir in cream, and toss with pasta."
+      ]
+    }
+  },
+  {
+    "id": "miso-soup",
+    "name": {
+      "vi": "Súp miso đậu hũ",
+      "en": "Miso tofu soup"
+    },
+    "description": {
+      "vi": "Món súp thanh nhẹ ấm bụng với đậu hũ non và hành lá.",
+      "en": "A warming, gentle soup with silky tofu and scallions."
+    },
+    "category": "lunch",
+    "minutes": 20,
+    "calories": 180,
+    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Tô súp nóng với rau thơm",
+      "en": "Warm soup topped with fresh herbs"
+    },
+    "ingredients": {
+      "vi": [
+        "700 ml nước dùng rau củ",
+        "2 thìa tương miso",
+        "150 g đậu hũ non",
+        "Hành lá và rong biển"
+      ],
+      "en": [
+        "700 ml vegetable stock",
+        "2 tbsp miso paste",
+        "150 g silken tofu",
+        "Scallions and seaweed"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Đun nóng nước dùng, hòa tan tương miso bằng một vá nước.",
+        "Cho đậu hũ và rong biển vào nồi, nấu nhẹ rồi thêm hành lá."
+      ],
+      "en": [
+        "Warm the stock and dissolve miso in a ladleful of the hot broth.",
+        "Add tofu and seaweed, warm gently, and finish with scallions."
+      ]
+    }
+  },
+  {
+    "id": "banana-pancakes",
+    "name": {
+      "vi": "Pancake chuối yến mạch",
+      "en": "Banana oat pancakes"
+    },
+    "description": {
+      "vi": "Pancake mềm ngọt tự nhiên từ chuối, ăn ngon cùng trái cây.",
+      "en": "Naturally sweet, fluffy pancakes made with banana and oats."
+    },
+    "category": "breakfast",
+    "minutes": 25,
+    "calories": 350,
+    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Pancake phủ trái cây tươi",
+      "en": "Pancakes topped with fresh fruit"
+    },
+    "ingredients": {
+      "vi": [
+        "1 quả chuối chín",
+        "100 g yến mạch xay",
+        "1 quả trứng",
+        "½ thìa bột nở"
+      ],
+      "en": [
+        "1 ripe banana",
+        "100 g ground oats",
+        "1 egg",
+        "½ tsp baking powder"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Nghiền chuối, trộn cùng trứng, yến mạch và bột nở.",
+        "Rán từng muỗng bột trên chảo chống dính đến khi hai mặt vàng."
+      ],
+      "en": [
+        "Mash the banana and combine it with egg, oats, and baking powder.",
+        "Cook spoonfuls of batter in a non-stick pan until both sides are golden."
+      ]
+    }
+  },
+  {
+    "id": "berry-yogurt-bowl",
+    "name": {
+      "vi": "Tô sữa chua quả mọng",
+      "en": "Berry yogurt breakfast bowl"
+    },
+    "description": {
+      "vi": "Sữa chua mát lạnh kết hợp quả mọng, hạt giòn và mật ong.",
+      "en": "Cool yogurt topped with berries, crunchy seeds, and honey."
+    },
+    "category": "breakfast",
+    "minutes": 10,
+    "calories": 260,
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Tô ăn sáng nhiều màu sắc với trái cây",
+      "en": "Colorful breakfast bowl with fresh fruit"
+    },
+    "ingredients": {
+      "vi": [
+        "200 g sữa chua Hy Lạp",
+        "1 nắm dâu và việt quất",
+        "2 thìa granola",
+        "1 thìa mật ong"
+      ],
+      "en": [
+        "200 g Greek yogurt",
+        "A handful of strawberries and blueberries",
+        "2 tbsp granola",
+        "1 tbsp honey"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Múc sữa chua vào tô.",
+        "Xếp quả mọng, granola lên trên và rưới mật ong."
+      ],
+      "en": [
+        "Spoon the yogurt into a bowl.",
+        "Top with berries and granola, then drizzle with honey."
+      ]
+    }
+  },
+  {
+    "id": "roasted-veggie-bowl",
+    "name": {
+      "vi": "Cơm tô rau củ nướng",
+      "en": "Roasted veggie grain bowl"
+    },
+    "description": {
+      "vi": "Tô ngũ cốc đủ chất với rau củ nướng vàng và xốt tahini.",
+      "en": "A hearty grain bowl topped with golden roasted vegetables and tahini."
+    },
+    "category": "vegetarian",
+    "minutes": 35,
+    "calories": 430,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Tô rau củ nhiều màu dùng cùng ngũ cốc",
+      "en": "Colorful vegetables served in a grain bowl"
+    },
+    "ingredients": {
+      "vi": [
+        "150 g quinoa đã nấu",
+        "1 củ khoai lang",
+        "1 quả bí ngòi",
+        "2 thìa xốt tahini"
+      ],
+      "en": [
+        "150 g cooked quinoa",
+        "1 sweet potato",
+        "1 zucchini",
+        "2 tbsp tahini"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Cắt rau củ, trộn dầu và nướng ở 200°C khoảng 25 phút.",
+        "Cho rau lên quinoa, rưới xốt tahini pha loãng với chanh."
+      ],
+      "en": [
+        "Cut the vegetables, toss with oil, and roast at 200°C for about 25 minutes.",
+        "Arrange over quinoa and drizzle with tahini thinned with lemon juice."
+      ]
+    }
+  },
+  {
+    "id": "lemon-chickpea-salad",
+    "name": {
+      "vi": "Salad đậu gà chanh",
+      "en": "Lemon chickpea salad"
+    },
+    "description": {
+      "vi": "Đậu gà bùi, rau xanh giòn và sốt chanh tươi mát.",
+      "en": "Nutty chickpeas, crisp greens, and a bright lemon dressing."
+    },
+    "category": "lunch",
+    "minutes": 15,
+    "calories": 335,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Salad xanh đậu gà ăn trưa",
+      "en": "Green chickpea salad for lunch"
+    },
+    "ingredients": {
+      "vi": [
+        "1 hộp đậu gà",
+        "2 nắm rau rocket",
+        "½ quả dưa leo",
+        "Chanh và dầu ô-liu"
+      ],
+      "en": [
+        "1 can chickpeas",
+        "2 handfuls arugula",
+        "½ cucumber",
+        "Lemon and olive oil"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Rửa sạch đậu gà, để ráo rồi trộn cùng rau và dưa leo.",
+        "Đánh dầu ô-liu, nước cốt chanh và muối, rưới đều trước khi dùng."
+      ],
+      "en": [
+        "Rinse and drain chickpeas, then toss them with arugula and cucumber.",
+        "Whisk olive oil, lemon juice, and salt, then dress the salad before serving."
+      ]
+    }
+  },
+  {
+    "id": "mushroom-risotto",
+    "name": {
+      "vi": "Risotto nấm kem",
+      "en": "Creamy mushroom risotto"
+    },
+    "description": {
+      "vi": "Hạt cơm Arborio sánh mượt, thơm vị nấm và phô mai Parmesan.",
+      "en": "Creamy Arborio rice infused with mushrooms and Parmesan."
+    },
+    "category": "dinner",
+    "minutes": 40,
+    "calories": 510,
+    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Món cơm sốt kem nấm nóng",
+      "en": "Warm creamy mushroom rice dish"
+    },
+    "ingredients": {
+      "vi": [
+        "200 g gạo Arborio",
+        "150 g nấm mỡ",
+        "700 ml nước dùng rau",
+        "Phô mai Parmesan"
+      ],
+      "en": [
+        "200 g Arborio rice",
+        "150 g button mushrooms",
+        "700 ml vegetable stock",
+        "Parmesan cheese"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Áp chảo nấm đến khi vàng, để riêng; phi thơm hành và đảo gạo.",
+        "Thêm nước dùng nóng từng vá, khuấy đều đến khi gạo chín; trộn nấm và Parmesan."
+      ],
+      "en": [
+        "Brown the mushrooms in a pan and set aside; sauté onion and stir in the rice.",
+        "Add hot stock one ladle at a time, stirring until creamy, then fold in mushrooms and Parmesan."
+      ]
+    }
+  },
+  {
+    "id": "caprese-sandwich",
+    "name": {
+      "vi": "Sandwich cà chua mozzarella",
+      "en": "Tomato mozzarella sandwich"
+    },
+    "description": {
+      "vi": "Bánh sandwich thơm mùi húng quế, cà chua chín và phô mai.",
+      "en": "A fresh sandwich with fragrant basil, ripe tomato, and mozzarella."
+    },
+    "category": "lunch",
+    "minutes": 12,
+    "calories": 390,
+    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Bánh sandwich kẹp rau xanh",
+      "en": "Sandwich layered with fresh greens"
+    },
+    "ingredients": {
+      "vi": [
+        "2 lát bánh mì ciabatta",
+        "1 quả cà chua",
+        "100 g mozzarella",
+        "Lá húng quế và pesto"
+      ],
+      "en": [
+        "2 slices ciabatta",
+        "1 tomato",
+        "100 g mozzarella",
+        "Fresh basil and pesto"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Phết pesto lên mặt bánh mì.",
+        "Xếp cà chua, mozzarella và húng quế, kẹp bánh rồi áp chảo nếu thích."
+      ],
+      "en": [
+        "Spread pesto over the bread.",
+        "Layer tomato, mozzarella, and basil, close the sandwich, and toast if desired."
+      ]
+    }
+  },
+  {
+    "id": "pumpkin-soup",
+    "name": {
+      "vi": "Súp bí đỏ gừng",
+      "en": "Ginger pumpkin soup"
+    },
+    "description": {
+      "vi": "Súp bí đỏ mịn ngọt dịu, điểm chút gừng ấm thơm.",
+      "en": "Silky, gently sweet pumpkin soup with a warming touch of ginger."
+    },
+    "category": "vegetarian",
+    "minutes": 35,
+    "calories": 245,
+    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Tô súp bí đỏ mịn nóng hổi",
+      "en": "Bowl of smooth, steaming pumpkin soup"
+    },
+    "ingredients": {
+      "vi": [
+        "500 g bí đỏ",
+        "1 củ hành tây",
+        "1 thìa gừng băm",
+        "500 ml nước dùng rau"
+      ],
+      "en": [
+        "500 g pumpkin",
+        "1 onion",
+        "1 tsp grated ginger",
+        "500 ml vegetable stock"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Xào hành và gừng, thêm bí đỏ cắt khối cùng nước dùng.",
+        "Nấu mềm khoảng 20 phút rồi xay mịn, nêm muối vừa ăn."
+      ],
+      "en": [
+        "Sauté onion and ginger, then add diced pumpkin and stock.",
+        "Simmer until soft, about 20 minutes, blend smooth, and season to taste."
+      ]
+    }
+  },
+  {
+    "id": "strawberry-overnight-oats",
+    "name": {
+      "vi": "Yến mạch ngâm dâu",
+      "en": "Strawberry overnight oats"
+    },
+    "description": {
+      "vi": "Bữa sáng tiện lợi chuẩn bị từ tối hôm trước với yến mạch và sữa.",
+      "en": "An easy make-ahead breakfast with oats, milk, and fresh strawberries."
+    },
+    "category": "breakfast",
+    "minutes": 10,
+    "calories": 310,
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Yến mạch ăn sáng cùng trái cây",
+      "en": "Breakfast oats topped with fruit"
+    },
+    "ingredients": {
+      "vi": [
+        "60 g yến mạch cán",
+        "120 ml sữa",
+        "1 thìa hạt chia",
+        "5 quả dâu tây"
+      ],
+      "en": [
+        "60 g rolled oats",
+        "120 ml milk",
+        "1 tbsp chia seeds",
+        "5 strawberries"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Trộn yến mạch, sữa và hạt chia trong hũ.",
+        "Đậy nắp để lạnh qua đêm, thêm dâu tây cắt lát trước khi ăn."
+      ],
+      "en": [
+        "Combine oats, milk, and chia seeds in a jar.",
+        "Cover and chill overnight, then top with sliced strawberries before serving."
+      ]
+    }
+  },
+  {
+    "id": "pesto-pasta",
+    "name": {
+      "vi": "Mì Ý sốt pesto rau húng",
+      "en": "Basil pesto pasta"
+    },
+    "description": {
+      "vi": "Mì ống phủ sốt pesto xanh thơm, thêm cà chua bi chua ngọt.",
+      "en": "Pasta tossed with aromatic green pesto and sweet cherry tomatoes."
+    },
+    "category": "dinner",
+    "minutes": 25,
+    "calories": 440,
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Mì Ý trộn sốt pesto xanh",
+      "en": "Pasta tossed in fresh green pesto"
+    },
+    "ingredients": {
+      "vi": [
+        "200 g mì spaghetti",
+        "3 thìa sốt pesto",
+        "1 nắm cà chua bi",
+        "Phô mai Parmesan"
+      ],
+      "en": [
+        "200 g spaghetti",
+        "3 tbsp basil pesto",
+        "1 handful cherry tomatoes",
+        "Parmesan cheese"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Luộc mì đến khi vừa chín, giữ lại một ít nước luộc.",
+        "Trộn mì nóng với pesto, thêm cà chua bi và chút nước luộc mì."
+      ],
+      "en": [
+        "Cook the pasta until al dente and reserve a little pasta water.",
+        "Toss the hot pasta with pesto, cherry tomatoes, and a splash of pasta water."
+      ]
+    }
+  },
+  {
+    "id": "chocolate-mug-cake",
+    "name": {
+      "vi": "Bánh chocolate cốc",
+      "en": "Chocolate mug cake"
+    },
+    "description": {
+      "vi": "Bánh chocolate mềm ẩm làm nhanh trong lò vi sóng.",
+      "en": "A soft, fudgy chocolate cake made quickly in the microwave."
+    },
+    "category": "dessert",
+    "minutes": 8,
+    "calories": 360,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Miếng bánh chocolate phủ kem",
+      "en": "Chocolate cake topped with cream"
+    },
+    "ingredients": {
+      "vi": [
+        "4 thìa bột mì",
+        "2 thìa bột cacao",
+        "2 thìa đường",
+        "4 thìa sữa"
+      ],
+      "en": [
+        "4 tbsp flour",
+        "2 tbsp cocoa powder",
+        "2 tbsp sugar",
+        "4 tbsp milk"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Trộn đều bột mì, cacao, đường và sữa trong cốc lớn.",
+        "Quay lò vi sóng 60–80 giây, để nguội một phút trước khi ăn."
+      ],
+      "en": [
+        "Mix flour, cocoa, sugar, and milk in a large mug until smooth.",
+        "Microwave for 60–80 seconds and let stand for one minute before enjoying."
+      ]
+    }
+  },
+  {
+    "id": "margherita-pizza",
+    "name": {
+      "vi": "Pizza Margherita",
+      "en": "Margherita pizza"
+    },
+    "description": {
+      "vi": "Pizza đế giòn đơn giản với cà chua, mozzarella và húng quế.",
+      "en": "A crisp, simple pizza topped with tomato, mozzarella, and basil."
+    },
+    "category": "dinner",
+    "minutes": 35,
+    "calories": 520,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Pizza phô mai và cà chua",
+      "en": "Tomato and cheese pizza"
+    },
+    "ingredients": {
+      "vi": [
+        "1 đế pizza",
+        "100 g sốt cà chua",
+        "150 g mozzarella",
+        "Lá húng quế tươi"
+      ],
+      "en": [
+        "1 pizza base",
+        "100 g tomato sauce",
+        "150 g mozzarella",
+        "Fresh basil leaves"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Phết sốt lên đế, phủ mozzarella.",
+        "Nướng ở 220°C đến khi phô mai tan và viền bánh vàng, thêm húng quế."
+      ],
+      "en": [
+        "Spread sauce over the base and scatter over the mozzarella.",
+        "Bake at 220°C until the cheese melts and crust turns golden; add basil."
+      ]
+    }
+  },
+  {
+    "id": "mango-smoothie-bowl",
+    "name": {
+      "vi": "Tô smoothie xoài",
+      "en": "Mango smoothie bowl"
+    },
+    "description": {
+      "vi": "Xoài xay mát lạnh với chuối, phủ dừa và hạt giòn.",
+      "en": "A cool mango-banana smoothie topped with coconut and crunchy seeds."
+    },
+    "category": "breakfast",
+    "minutes": 10,
+    "calories": 295,
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Tô smoothie trái cây nhiệt đới",
+      "en": "Tropical fruit smoothie bowl"
+    },
+    "ingredients": {
+      "vi": [
+        "1 quả xoài chín",
+        "1 quả chuối đông lạnh",
+        "100 ml sữa hạnh nhân",
+        "Dừa sấy và hạt bí"
+      ],
+      "en": [
+        "1 ripe mango",
+        "1 frozen banana",
+        "100 ml almond milk",
+        "Dried coconut and pumpkin seeds"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Xay xoài, chuối đông lạnh và sữa đến khi mịn đặc.",
+        "Múc ra tô rồi rắc dừa sấy và hạt bí lên trên."
+      ],
+      "en": [
+        "Blend mango, frozen banana, and milk until thick and smooth.",
+        "Pour into a bowl and top with coconut and pumpkin seeds."
+      ]
+    }
+  },
+  {
+    "id": "lentil-curry",
+    "name": {
+      "vi": "Cà ri đậu lăng",
+      "en": "Coconut lentil curry"
+    },
+    "description": {
+      "vi": "Đậu lăng ninh mềm trong nước cốt dừa cùng gia vị thơm.",
+      "en": "Tender lentils simmered in coconut milk with warming spices."
+    },
+    "category": "vegetarian",
+    "minutes": 40,
+    "calories": 470,
+    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Tô cà ri rau củ nóng",
+      "en": "Warm bowl of vegetable curry"
+    },
+    "ingredients": {
+      "vi": [
+        "180 g đậu lăng đỏ",
+        "200 ml nước cốt dừa",
+        "1 quả cà chua",
+        "Bột cà ri và rau mùi"
+      ],
+      "en": [
+        "180 g red lentils",
+        "200 ml coconut milk",
+        "1 tomato",
+        "Curry powder and cilantro"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Rửa đậu lăng, cho vào nồi cùng cà chua và bột cà ri.",
+        "Thêm nước cốt dừa cùng nước, nấu liu riu đến khi đậu mềm."
+      ],
+      "en": [
+        "Rinse the lentils and add them to a pot with tomato and curry powder.",
+        "Add coconut milk and water, then simmer gently until the lentils are tender."
+      ]
+    }
+  },
+  {
+    "id": "apple-crumble",
+    "name": {
+      "vi": "Táo nướng vụn yến mạch",
+      "en": "Apple oat crumble"
+    },
+    "description": {
+      "vi": "Táo quế nướng mềm phủ lớp yến mạch vàng giòn.",
+      "en": "Soft cinnamon apples baked under a golden, crisp oat topping."
+    },
+    "category": "dessert",
+    "minutes": 45,
+    "calories": 330,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Bánh nướng trái cây phủ vụn giòn",
+      "en": "Baked fruit dessert with a crisp crumb topping"
+    },
+    "ingredients": {
+      "vi": [
+        "3 quả táo",
+        "1 thìa bột quế",
+        "60 g yến mạch",
+        "40 g bơ lạnh"
+      ],
+      "en": [
+        "3 apples",
+        "1 tsp cinnamon",
+        "60 g oats",
+        "40 g cold butter"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Thái táo, trộn với quế và xếp vào khay nướng.",
+        "Bóp bơ với yến mạch và đường, rải lên táo rồi nướng ở 180°C trong 30 phút."
+      ],
+      "en": [
+        "Slice apples, toss with cinnamon, and arrange in a baking dish.",
+        "Rub butter into oats and sugar, scatter over apples, and bake at 180°C for 30 minutes."
+      ]
+    }
+  },
+  {
+    "id": "sesame-tofu-bowl",
+    "name": {
+      "vi": "Tô đậu hũ mè rang",
+      "en": "Sesame tofu rice bowl"
+    },
+    "description": {
+      "vi": "Đậu hũ áp chảo giòn phủ sốt mè, ăn cùng cơm và rau xanh.",
+      "en": "Crispy pan-fried tofu with sesame sauce, rice, and fresh greens."
+    },
+    "category": "lunch",
+    "minutes": 30,
+    "calories": 415,
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Tô cơm ăn cùng rau xanh nhiều màu",
+      "en": "Rice bowl served with colorful green vegetables"
+    },
+    "ingredients": {
+      "vi": [
+        "200 g đậu hũ chắc",
+        "1 thìa dầu mè",
+        "2 thìa nước tương",
+        "Cơm chín và bông cải"
+      ],
+      "en": [
+        "200 g firm tofu",
+        "1 tbsp sesame oil",
+        "2 tbsp soy sauce",
+        "Cooked rice and broccoli"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Ép ráo đậu hũ, cắt khối rồi áp chảo đến khi vàng đều.",
+        "Trộn mè và nước tương, đảo cùng đậu; dùng kèm cơm và bông cải hấp."
+      ],
+      "en": [
+        "Press tofu dry, cube it, and pan-fry until evenly golden.",
+        "Combine sesame and soy sauce, toss with tofu, and serve with rice and steamed broccoli."
+      ]
+    }
+  },
+  {
+    "id": "spinach-omelette",
+    "name": {
+      "vi": "Trứng cuộn rau chân vịt",
+      "en": "Spinach breakfast omelette"
+    },
+    "description": {
+      "vi": "Trứng mềm cuộn cùng rau chân vịt tươi và chút phô mai.",
+      "en": "Fluffy eggs folded around fresh spinach and a little cheese."
+    },
+    "category": "breakfast",
+    "minutes": 15,
+    "calories": 285,
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Bữa sáng trứng và rau xanh",
+      "en": "Breakfast plate with eggs and green vegetables"
+    },
+    "ingredients": {
+      "vi": [
+        "2 quả trứng",
+        "1 nắm rau chân vịt",
+        "20 g phô mai cheddar",
+        "Muối và tiêu"
+      ],
+      "en": [
+        "2 eggs",
+        "1 handful baby spinach",
+        "20 g cheddar cheese",
+        "Salt and pepper"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Đánh trứng cùng muối tiêu rồi đổ vào chảo nóng.",
+        "Thêm rau và phô mai, gập trứng lại khi mặt dưới vừa chín."
+      ],
+      "en": [
+        "Beat eggs with salt and pepper, then pour into a warm pan.",
+        "Add spinach and cheese, then fold once the underside is just set."
+      ]
+    }
+  },
+  {
+    "id": "citrus-fruit-salad",
+    "name": {
+      "vi": "Salad cam quýt bạc hà",
+      "en": "Citrus mint fruit salad"
+    },
+    "description": {
+      "vi": "Trái cây tươi mát, mọng nước với chút bạc hà và mật ong.",
+      "en": "A refreshing mix of juicy fruit with mint and a touch of honey."
+    },
+    "category": "dessert",
+    "minutes": 15,
+    "calories": 190,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=960&q=80",
+    "alt": {
+      "vi": "Salad rau quả tươi sáng nhiều màu",
+      "en": "Bright, colorful fresh fruit and greens"
+    },
+    "ingredients": {
+      "vi": [
+        "2 quả cam",
+        "1 quả bưởi",
+        "Lá bạc hà tươi",
+        "1 thìa mật ong"
+      ],
+      "en": [
+        "2 oranges",
+        "1 grapefruit",
+        "Fresh mint leaves",
+        "1 tbsp honey"
+      ]
+    },
+    "steps": {
+      "vi": [
+        "Bóc vỏ cam và bưởi, tách múi rồi xếp vào tô.",
+        "Rưới mật ong và rắc lá bạc hà xé nhỏ trước khi dùng."
+      ],
+      "en": [
+        "Peel the oranges and grapefruit, separate the segments, and add to a bowl.",
+        "Drizzle with honey and scatter over torn mint leaves before serving."
+      ]
+    }
+  }
+]
