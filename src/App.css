@@ -202,7 +202,7 @@
   max-width: 495px;
   margin: 18px 0 13px;
   color: #1d382b;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: inherit;
   font-size: clamp(40px, 4.3vw, 58px);
   font-weight: 500;
   line-height: 1.075;
@@ -335,7 +335,7 @@
 
 .hero-count > span:first-child {
   color: #426e4e;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: inherit;
   font-size: 31px;
 }
 
@@ -385,7 +385,7 @@
 .section-heading h2 {
   margin: 8px 0 5px;
   color: #24352a;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: inherit;
   font-size: 30px;
   font-weight: 500;
   line-height: 1.2;
@@ -646,7 +646,7 @@
   overflow: hidden;
   margin: 0;
   color: #25372a;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.35;
@@ -747,7 +747,7 @@
 .compare-empty h2 {
   margin: 13px 0 5px;
   color: #304337;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: inherit;
   font-size: 23px;
   font-weight: 550;
 }
@@ -939,7 +939,7 @@
 .detail-intro h1 {
   margin: 14px 0 11px;
   color: #20382a;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: inherit;
   font-size: clamp(34px, 3.6vw, 45px);
   font-weight: 500;
   line-height: 1.12;
@@ -1064,7 +1064,7 @@
 .recipe-section-heading h2 {
   margin: 0;
   color: #2b3d31;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: inherit;
   font-size: 21px;
   font-weight: 550;
 }
@@ -1168,7 +1168,7 @@
 .compare-heading-row h1 {
   margin: 0 0 8px;
   color: #253a2d;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: inherit;
   font-size: clamp(31px, 4vw, 42px);
   font-weight: 500;
 }
@@ -1292,7 +1292,7 @@
 
 .comparison-title-link {
   color: #2b3d31;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: inherit;
   font-size: 14px;
   font-weight: 620;
   line-height: 1.4;
