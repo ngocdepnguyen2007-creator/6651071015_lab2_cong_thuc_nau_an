@@ -58,8 +58,6 @@ export const text = {
     selectLanguage: 'Chọn ngôn ngữ',
     selectedForCompare: 'Đã thêm món vào danh sách so sánh',
     removedFromCompare: 'Đã bỏ món khỏi danh sách so sánh',
-    featureEyebrow: 'BỘ SƯU TẬP CÁ NHÂN',
-    feature: 'CÔNG THỨC DỄ LÀM',
   },
   en: {
     tagline: 'Good food, feel good',
@@ -118,8 +116,6 @@ export const text = {
     selectLanguage: 'Select language',
     selectedForCompare: 'Added to your comparison',
     removedFromCompare: 'Removed from your comparison',
-    featureEyebrow: 'YOUR LITTLE COLLECTION',
-    feature: 'EASY, DELICIOUS RECIPES',
   },
 }
 

@@ -59,7 +59,6 @@ export function ListPage() {
             <div className="hero-photo">
               <RecipeImage alt="" fetchPriority="high" src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=960&q=85" />
             </div>
-            <div className="hero-sticker"><span className="sticker-star">✳</span><span>{copy.featureEyebrow}<br /><strong>{copy.feature}</strong></span></div>
             <span className="hero-orbit hero-orbit-one" />
             <span className="hero-orbit hero-orbit-two" />
           </div>
