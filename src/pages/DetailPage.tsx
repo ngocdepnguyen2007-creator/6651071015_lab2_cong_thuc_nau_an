@@ -2,6 +2,7 @@ import { ArrowLeft, ArrowUpRight, Check, Clock3, Flame, GitCompareArrows, UsersR
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { DetailSkeleton } from '../components/RecipeSkeleton'
+import { RecipeImage } from '../components/RecipeImage'
 import { useAppContext } from '../context/useAppContext'
 import { recipes } from '../data/recipes'
 import { text } from '../i18n'
@@ -46,7 +47,7 @@ export function DetailPage() {
       <Link className="back-link" to="/"><ArrowLeft size={16} aria-hidden="true" />{copy.backToRecipes}</Link>
       <div className="detail-hero">
         <div className="detail-image-wrap">
-          <img alt={recipe.alt[language]} className="detail-image" src={recipe.image} />
+          <RecipeImage alt={recipe.alt[language]} className="detail-image" src={recipe.image} />
           <span className="detail-category">{copy.categoryLabels[recipe.category]}</span>
         </div>
         <div className="detail-intro">

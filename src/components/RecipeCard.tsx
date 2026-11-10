@@ -2,6 +2,7 @@ import { ArrowUpRight, Clock3, GitCompareArrows, Leaf } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import type { Recipe } from '../data/recipes'
 import { useAppContext } from '../context/useAppContext'
+import { RecipeImage } from './RecipeImage'
 import { text } from '../i18n'
 
 interface RecipeCardProps {
@@ -19,7 +20,7 @@ export function RecipeCard({ recipe, index, onCompareToggle }: RecipeCardProps) 
   return (
     <article className={`recipe-card${selected ? ' recipe-card-selected' : ''}`}>
       <Link aria-label={`${copy.viewRecipe}: ${recipe.name[language]}`} className="card-image-link" to={`/item/${recipe.id}`}>
-        <img
+        <RecipeImage
           alt={recipe.alt[language]}
           className="card-image"
           loading="lazy"
